@@ -134,6 +134,8 @@ h2{font-size:72px;line-height:1}
 .top .ct:hover{background:var(--y);color:var(--k);border-color:var(--y)}
 .hero .rec,.hero .tc{top:120px}
 .hin{left:var(--pad);right:var(--pad);bottom:90px;padding:0;text-align:left;display:flex;justify-content:space-between;align-items:flex-end;gap:40px}
+.hin h1{font-size:clamp(60px,8.6vw,150px);white-space:nowrap}
+.hin>div{flex:none}
 .hin p{margin:0 0 26px;font-size:24px;text-align:right}
 .hin .btn{font-size:16px}
 .intro .wrap{display:grid;grid-template-columns:1.1fr 1fr;gap:100px;align-items:end}
