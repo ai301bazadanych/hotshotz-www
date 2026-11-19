@@ -167,3 +167,12 @@ footer{padding:70px var(--pad) 60px;font-size:15px}
 footer .row{flex-direction:row;justify-content:space-between}
 .foot-logo{margin-top:60px}
 }
+
+/* wersja 2: nagłówki Parabolica (display), tekst Parabolica Text */
+body.v2{--disp:"parabolica","parabolica-text",system-ui,sans-serif;--text:"parabolica-text","Inter",system-ui,sans-serif}
+body.v2 .disp{letter-spacing:-.02em}
+body.v2 .hin p{font-weight:400}
+/* przełącznik wersji (tylko na czas wyboru) */
+.ver{position:fixed;z-index:60;left:14px;bottom:14px;display:flex;gap:4px;background:rgba(10,12,0,.85);border:1px solid rgba(255,255,255,.2);border-radius:30px;padding:4px;font:700 12px/1 var(--text);letter-spacing:1px}
+.ver a{padding:8px 12px;border-radius:30px;color:#fff}
+.ver a.on{background:var(--y);color:var(--k)}
